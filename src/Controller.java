@@ -28,8 +28,6 @@
  * @version 1.0
  */
 
-// Hey Leon Jongsma!
-// Nog een commit hier en daar...
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -38,7 +36,21 @@ import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 import java.io.PrintWriter;
 import java.util.StringTokenizer;
-public class Controller implements Runnable{
+public class Controller implements Runnable
+{
+	private String waarde1;
+	private String waarde2;
+	
+	private String waarde3;
+	
+	
+	private String waarde4;
+	
+	
+	
+	
+	
+	
 	Robot robot = null;
 	OccupancyMap map = new OccupancyMap();
 
