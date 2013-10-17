@@ -252,7 +252,10 @@ public class Controller implements Runnable
 		parameter = value.substring(indexInit+4);
 		position[2] = Double.parseDouble(parameter);
 	}
-//asdad
+	//asdad
+	//dasdas
+	//sadasdas
+	//adasd
 	private void parseMeasures(String value, double measures[]) {
 		for(int i=0; i < 360; i++)
 			measures[i] = 100.0;
