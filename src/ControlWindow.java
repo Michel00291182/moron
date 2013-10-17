@@ -35,9 +35,9 @@ import javax.swing.JPanel;
  * Title:        The MObile RObot Simulation Environment
  * Description:  This window shows what the robot discovers.
  * Copyright:    Copyright (c) 2002
- * Company:      Università di Bergamo
+ * Company:      Universi di Bergamo
  * @author       Davide Brugali
- * @version 1.0
+ * @version 1.5
  */
 
 @SuppressWarnings("serial")

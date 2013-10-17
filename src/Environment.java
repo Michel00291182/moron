@@ -1,5 +1,5 @@
 /*
- * (C) Copyright 2005 Davide Brugali, Marco Torchiano
+ffewef * (C) Copyright 2005 Davide Brugali, Marco Torchiano
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -40,6 +40,11 @@ public class Environment extends JPanel {
 		robot = new Robot("R1", 90, 200, 270, this);
 	}
 
+	
+	dfsaf
+	dsfdsaf
+	s
+	daf
 	public boolean loadMap(File mapFile) {
 		// removes all the obstacles already loaded
 		obstacles.clear();
