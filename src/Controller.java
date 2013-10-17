@@ -255,6 +255,7 @@ public class Controller implements Runnable
 	//asdad
 	//dasdas
 	//sadasdas
+	//asdad
 	//adasd
 	private void parseMeasures(String value, double measures[]) {
 		for(int i=0; i < 360; i++)
