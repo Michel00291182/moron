@@ -40,6 +40,11 @@ public class Environment extends JPanel {
 		robot = new Robot("R1", 90, 200, 270, this);
 	}
 
+	
+	dfsaf
+	dsfdsaf
+	s
+	daf
 	public boolean loadMap(File mapFile) {
 		// removes all the obstacles already loaded
 		obstacles.clear();
