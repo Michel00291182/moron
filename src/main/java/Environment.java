@@ -31,20 +31,17 @@ import java.util.Iterator;
 import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
-public class Environment extends JPanel {
+public class Environment extends JPanel 
+{
 	ArrayList<Obstacle> obstacles = new ArrayList<Obstacle>();
 	Robot robot = null;
 
 	/**Construct the application*/
-	public Environment() {
+	public Environment() 
+	{
 		robot = new Robot("R1", 90, 200, 270, this);
 	}
-
 	
-	dfsaf
-	dsfdsaf
-	s
-	daf
 	public boolean loadMap(File mapFile) {
 		// removes all the obstacles already loaded
 		obstacles.clear();

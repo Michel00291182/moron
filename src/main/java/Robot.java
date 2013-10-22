@@ -23,7 +23,7 @@
  * Title:        The MObile RObot Simulation Environment
  * Description:
  * Copyright:    Copyright (c) 2001
- * Company:      Università di Bergamo
+ * Company:      Universit di Bergamo
  * @author Davide Brugali
  * @version 1.0
  */
