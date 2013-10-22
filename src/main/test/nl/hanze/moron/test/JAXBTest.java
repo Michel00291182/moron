@@ -24,7 +24,7 @@ public class JAXBTest extends TestCase
 		int max = 300;
 		Random ran = new Random();
 		Collection<POINTType> pointCollection = factory.createOBSTACLEType().getPOINT();
-		for (int i=0;i<10 ;i++ )
+		for (int i=0;i<5 ;i++ )
 		{
 			POINTType pointType = factory.createPOINTType();
 			pointType.setX(new Short((short) (ran.nextInt(max - min + 1) + min)));
@@ -40,13 +40,9 @@ public void testMarshall() throws JAXBException
 	ObjectFactory factory = new ObjectFactory();
 	MAPType mapType = factory.createMAPType();
 	OBSTACLEType createOBSTACLEType = factory.createOBSTACLEType();
-	
-	
 	createOBSTACLEType.setNAME("WandBoven");
 	createOBSTACLEType.setOPAQUE("false");
 	createOBSTACLEType.getPOINT().addAll(createPoints(factory));
-
-	
 	mapType.getOBSTACLE().add(createOBSTACLEType);
 	JAXBElement<MAPType> element = factory.createMAP(mapType);
 	Marshaller m = jc.createMarshaller();
